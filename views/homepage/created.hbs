@@ -1,8 +1,10 @@
 <main role="main" class="container">
   <div class="card">
+
     <div class="card-header">
       URL shortener
     </div>
+
     <div class="card-body">
       <form action="/" method="POST">
         <div class="form-group">
@@ -12,6 +14,10 @@
 
         <button type="submit" class="btn btn-primary" onclick="joinGame()">Minify</button>
       </form>
+    </div>
+
+    <div class="card-footer text-muted">
+        <a href="{{ mini }}">Tiny URL: {{ mini }}</a>
     </div>
   </div>
 </main>

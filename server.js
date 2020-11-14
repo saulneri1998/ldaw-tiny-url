@@ -6,6 +6,10 @@ const webRoutes = require('./routes/web');
 const app = express();
 const appConfig = require('./configs/app');
 
+// parse user input
+const bodyParser = require('body-parser');
+app.use(bodyParser.urlencoded({ extended: true }));
+
 // View engine configs
 const exphbs = require('express-handlebars');
 const hbshelpers = require("handlebars-helpers");
