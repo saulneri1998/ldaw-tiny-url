@@ -1,0 +1,27 @@
+{
+  "name": "ldaw-tiny-url",
+  "version": "1.0.0",
+  "description": "url shortener for ldaw course",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saulneri1998/ldaw-tiny-url.git"
+  },
+  "author": "Saul Neri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saulneri1998/ldaw-tiny-url/issues"
+  },
+  "homepage": "https://github.com/saulneri1998/ldaw-tiny-url#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "handlebars-helpers": "^0.10.0",
+    "knex": "^0.21.12",
+    "mysql2": "^2.2.5"
+  }
+}
